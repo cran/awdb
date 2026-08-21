@@ -1,16 +1,16 @@
 [package]
-name = 'awdb'
-publish = false
-version = '0.1.0'
-edition = '2021'
+name = "awdb"
+version = "0.1.0"
+edition = "2021"
 rust-version = "1.65"
+publish = false
 
 [lib]
-crate-type = [ 'staticlib' ]
-name = 'awdb'
+crate-type = ["staticlib"]
+name = "awdb"
 
 [dependencies]
-extendr-api = { version = "0.8.0", features = ["serde"] }
+extendr-api = { git = "https://github.com/extendr/extendr", features = ["serde"] }
 rayon = "1.10.0"
 serde = { version = "1.0.219", features = ["derive"] }
 serde_json = "1.0.140"
