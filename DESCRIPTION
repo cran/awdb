@@ -1,6 +1,6 @@
 Package: awdb
 Title: Query the USDA NWCC Air and Water Database REST API
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person("Kenneth Blake", "Vernon", , 
            "kenneth.b.vernon@gmail.com", 
@@ -24,9 +24,9 @@ URL: https://github.com/kbvernon/awdb, https://kbvernon.github.io/awdb/
 BugReports: https://github.com/kbvernon/awdb/issues
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: yes
-Packaged: 2026-08-21 15:40:49 UTC; kenne
+Packaged: 2026-09-11 20:49:10 UTC; kenne
 Author: Kenneth Blake Vernon [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-0098-5092>)
 Maintainer: Kenneth Blake Vernon <kenneth.b.vernon@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-08-21 18:00:02 UTC
+Date/Publication: 2026-09-13 23:20:24 UTC
